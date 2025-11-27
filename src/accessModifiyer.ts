@@ -20,3 +20,8 @@ class BackAccount{
 
 }
 
+
+const MyAccount = new BackAccount(222, "Shale Newaj", 120)
+
+console.log(MyAccount.addBalance(120))
+console.log(MyAccount.subBalance(40))
